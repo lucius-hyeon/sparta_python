@@ -59,8 +59,10 @@ class Calc():
             print('0으로 나눌 수 없습니다')
 
 
+num1, num2 = list(map(str, (input().split())))
+
 calc = Calc()
-calc.set_number('2', '4')
+calc.set_number(num1, num2)
 print(calc.puls())
 print(calc.minus())
 print(calc.mulitple())
