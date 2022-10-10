@@ -1,7 +1,7 @@
 mutable
  - 리스트
- - 클래스
+ - dict
 
 immutable
  - 튜플
- - 
+ - int ,str, float..
