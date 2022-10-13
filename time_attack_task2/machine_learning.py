@@ -16,7 +16,7 @@ result = [item for item in result if item[6] == 'person']
 tmp_img_all = cv2.imread('Untitled.jpeg')
 tmp_img = cv2.imread('Untitled.jpeg')
 
-for i in range(5):
+for i in range(len(result)):
     cropped = tmp_img[int(result[i][1]):int(result[i][3]),
                       int(result[i][0]):int(result[i][2])]
     # print("crop", cropped.shape)
